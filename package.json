@@ -1,0 +1,33 @@
+{
+  "name": "holitwit",
+  "version": "1.0.0",
+  "description": "practice twitter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropspindl/mern_twitter.git"
+  },
+  "author": "dropspindl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dropspindl/mern_twitter/issues"
+  },
+  "homepage": "https://github.com/dropspindl/mern_twitter#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
